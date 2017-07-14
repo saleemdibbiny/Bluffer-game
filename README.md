@@ -17,6 +17,6 @@ Players are awarded 10 points for choosing the correct answer, and 5 for each pl
 answers.<br />
 
 ## Implementation ##
-*The server is written in Java. 
-*The client us written in C++ with BOOST.
-*Using maven as a build tool.
+* The server is written in Java. 
+* The client us written in C++ with BOOST.
+* Using maven as a build tool.
