@@ -18,5 +18,12 @@ answers.<br />
 
 ## Implementation ##
 * The server is written in Java. 
-* The client us written in C++ with BOOST.
+* The client is written in C++ with BOOST.
 * Using maven as a build tool.
+
+### Server ###
+An implementation of a single protocol, supporting both the Thread-Per-Client and Reactor servers.
+### Client ###
+The client is multithreaded with one thread for handling the socket and another thread to handle stdin.<br />
+The client receives the server’s IP and PORT as arguments.
+
