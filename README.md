@@ -1,5 +1,22 @@
-# Bluffer-game
-An implemention of a text-based game server and client. The communication between the server and the client(s) is performed using a simple text based protocol (TBGP), which supports the Bluffer game. <br />
-The implementation of the server will be based on a Reactor and Thread-Per-Client servers supporting complex protocol TBGP. <br />
-The server is written in Java. <br />
-The client is written in C++ with BOOST.
+# Bluffer-game #
+<b>SPL: Assignment 3</b><br />
+Java Concurrency and Synchronization<br /><br />
+
+## Description ##
+An implemention a text-based game server and client. The communication between the
+server and the client(s) is performed using a simple text based protocol (TBGP), which can potentially
+support different games; However, we will only support a single game - Bluffer. <br/>
+The implementation of the server is based on a Reactor and Thread-Per-Client servers. Adjusted to support complex protocol TBGP, and support the Bluffer game.
+
+### The Bluffer game ###
+The Bluffer game is a type of trivia game, with a twist - the players try to fool each other into choosing absurd
+answers. The game host asks a series of questions, for which the players try to provide answers that seem real.
+The players are then presented with both the real answer, and the fake answers provided by other players, and
+have to choose the real one. <br />
+Players are awarded 10 points for choosing the correct answer, and 5 for each player that chose one of their fake
+answers.<br />
+
+## Implementation ##
+*The server is written in Java. 
+*The client us written in C++ with BOOST.
+*Using maven as a build tool.
