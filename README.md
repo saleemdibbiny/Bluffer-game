@@ -10,7 +10,8 @@ have to choose the real one. <br />
 Players are awarded 10 points for choosing the correct answer, and 5 for each player that chose one of their fake
 answers.<br />
 
-## Implementation ##An implemention a text-based game server and client. The communication between the
+## Implementation ##
+An implemention a text-based game server and client. The communication between the
 server and the client(s) is performed using a simple text based protocol (TBGP), which can potentially
 support different games; However, we will only support a single game - Bluffer. <br/>
 The implementation of the server is based on a Reactor and Thread-Per-Client servers. Adjusted to support complex protocol TBGP, and support the Bluffer game.<br /> <br />
